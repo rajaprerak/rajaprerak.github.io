@@ -1,0 +1,11 @@
+Version: 1.2.1
+  - Fixed mobile nav toggle button in iPhones
+  
+Version: 1.2.0
+  - Added portfolio details page
+
+Version: 1.1.0
+  - Added navigation active state on scroll
+
+Version: 1.0.0
+  - Initial Release
