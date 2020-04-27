@@ -1,6 +1,6 @@
 /*
  * VenoBox - jQuery Plugin
- * version: 1.8.7
+ * version: 1.8.9
  * @requires jQuery >= 1.7.0
  *
  * Examples at http://veno.es/venobox/
@@ -14,11 +14,18 @@
 
 (function($){
     "use strict";
-    var autoplay, bgcolor, blocknum, blocktitle, border, core, container, content, dest, extraCss,
+    var autoplay, bgcolor, blockleft, blocknum, blockshare, blocktitle, border, core, container, content, dest, extraCss,
         framewidth, frameheight, gallItems, infinigall, items, keyNavigationDisabled, margine, numeratio,
         overlayColor, overlay, title, thisgall, thenext, theprev, nextok, prevok, preloader, $preloader, navigation,
-        obj, gallIndex, startouch, vbheader, images, startY, startX, endY, endX, diff, diffX, diffY, threshold;
+        obj, gallIndex, startouch, vbheader, images, startY, startX, endY, endX, diff, diffX, diffY, threshold,
+        share, sharelinks, vbfooter, sharepos;
 
+    var pinIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.372-12 12 0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.124.347 2.317.535 3.554.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z" fill-rule="evenodd" clip-rule="evenodd"/></svg>';
+    var fbIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg>';
+    var twitterIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"/></svg>';
+    var linkedinIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg>';
+    var downloadIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm2 9h-4v-1h4v1zm0-3v1h-4v-1h4zm-2 13l-6-6h4v-3h4v3h4l-6 6z"/></svg>';
+   
     $.fn.extend({
         //plugin name - venobox
         venobox: function(options) {
@@ -29,7 +36,7 @@
                 autoplay : false, // same as data-autoplay - thanks @codibit
                 bgcolor: '#fff',
                 border: '0',
-                closeBackground : '#161617',
+                closeBackground : 'transparent',
                 closeColor : "#d2d2d2",
                 framewidth: '',
                 frameheight: '',
@@ -50,6 +57,7 @@
                 titleBackground: '#161617',
                 titleColor: '#d2d2d2',
                 titlePosition : 'top', // 'top' || 'bottom'
+                share: [ 'facebook', 'twitter', 'linkedin', 'pinterest', 'download' ], 
                 cb_pre_open: function(){ return true; }, // Callbacks - thanx @garyee
                 cb_post_open: function(){},
                 cb_pre_close: function(){ return true; },
@@ -88,6 +96,7 @@
                 obj.data('infinigall', option.infinigall);
                 obj.data('overlaycolor', option.overlayColor);
                 obj.data('titleattr', option.titleattr);
+                obj.data('share', option.share);
 
                 obj.data('venobox', true);
 
@@ -127,7 +136,8 @@
                     dest = obj.data('href') || obj.attr('href');
                     extraCss = obj.data( 'css' ) || '';
                     title = obj.attr(obj.data('titleattr')) || '';
-
+                    share = obj.data('share');
+                    
                     preloader = '<div class="vbox-preloader">';
 
                     switch (option.spinner) {
@@ -229,10 +239,11 @@
                     preloader += '</div>';
 
                     navigation = '<a class="vbox-next">' + option.htmlNext + '</a><a class="vbox-prev">' + option.htmlPrev + '</a>';
-                    vbheader = '<div class="vbox-title"></div><div class="vbox-num">0/0</div><div class="vbox-close">' + option.htmlClose + '</div>';
+                    vbheader = '<div class="vbox-title"></div><div class="vbox-left"><div class="vbox-num">0/0</div></div><div class="vbox-close">' + option.htmlClose + '</div>';
+                    vbfooter = '<div class="vbox-share"></div>';
 
                     core = '<div class="vbox-overlay ' + extraCss + '" style="background:'+ overlayColor +'">'+
-                    preloader + '<div class="vbox-container"><div class="vbox-content"></div></div>' + vbheader + navigation + '</div>';
+                    preloader + '<div class="vbox-container"><div class="vbox-content"></div></div>' + vbheader + navigation + vbfooter + '</div>';
 
                     $('body').append(core).addClass('vbox-open');
 
@@ -241,13 +252,28 @@
                     overlay = $('.vbox-overlay');
                     container = $('.vbox-container');
                     content = $('.vbox-content');
+                    blockleft = $('.vbox-left');
                     blocknum = $('.vbox-num');
+                    blockshare = $('.vbox-share');
                     blocktitle = $('.vbox-title');
                     $preloader = $('.vbox-preloader');
 
                     $preloader.show();
 
-                    blocktitle.css(option.titlePosition, '-1px');
+                    if (option.titlePosition == 'top') {
+                        sharepos = 'bottom';
+                    } else {
+                        sharepos = 'top';
+                    }
+                    blockshare.css(sharepos, '-1px');
+                    blockshare.css({
+                      'color' : option.titleColor,
+                      'fill' : option.titleColor,
+                      'background-color' : option.titleBackground
+                    });
+
+                    blocktitle.css(option.titlePosition, '-1px',);
+
                     blocktitle.css({
                       'color' : option.titleColor,
                       'background-color' : option.titleBackground
@@ -258,8 +284,8 @@
                       'background-color' : option.closeBackground
                     });
 
-                    $('.vbox-num').css(option.numerationPosition, '-1px');
-                    $('.vbox-num').css({
+                    blockleft.css(option.numerationPosition, '-1px');
+                    blockleft.css({
                       'color' : option.numerationColor,
                       'background-color' : option.numerationBackground
                     });
@@ -316,11 +342,30 @@
                     numeratio = obj.data('numeratio');
                     gallItems = obj.data('gallItems');
                     infinigall = obj.data('infinigall');
+                    share = obj.data('share');
+                    blockshare.html('');
+                    if ( obj.data('vbtype') !== 'iframe' && obj.data('vbtype') !== 'inline' && obj.data('vbtype') !== 'ajax' ) {
+                        sharelinks = { 
+                            pinterest : '<a target="_blank" href="https://pinterest.com/pin/create/button/?url='+obj.prop('href')+'&media='+obj.prop('href')+'&description='+title+'">'+pinIcon+'</a>', 
+                            facebook  : '<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u='+obj.prop('href')+'">'+fbIcon+'</a>', 
+                            twitter   : '<a target="_blank" href="https://twitter.com/intent/tweet?text='+title+'&url='+obj.prop('href')+'">'+twitterIcon+'</a>', 
+                            linkedin  : '<a target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url='+obj.prop('href')+'">'+linkedinIcon+'</a>',
+                            download  : '<a target="_blank" href="'+obj.prop('href')+'">'+downloadIcon+'</a>'
+                        };
+                        $.each( share, function( key, value ) {
+                            blockshare.append(sharelinks[value]);
+                        });
+                    }
 
                     if (gallItems) {
                         items = gallItems;
                     } else {
                         items = $('.vbox-item[data-gall="' + thisgall + '"]');
+                    }
+
+                    if (items.length < 2) {
+                        infinigall = false;
+                        numeratio = false;
                     }
 
                     thenext = items.eq( items.index(obj) + 1 );
@@ -411,30 +456,30 @@
                       opacity : 0,
                     }, 500, function(){
 
-                      overlay.css('background',overlayColor);
+                        overlay.css('background',overlayColor);
 
-                      content
-                      .removeClass('vbox-animated')
-                      .removeClass('swipe-left')
-                      .removeClass('swipe-right')
-                      .css({'margin-left': 0,'margin-right': 0});
+                        content
+                        .removeClass('vbox-animated')
+                        .removeClass('swipe-left')
+                        .removeClass('swipe-right')
+                        .css({'margin-left': 0,'margin-right': 0});
 
-                      if (destination.data('vbtype') == 'iframe') {
-                        loadIframe();
-                      } else if (destination.data('vbtype') == 'inline') {
-                        loadInline();
-                      } else if (destination.data('vbtype') == 'ajax') {
-                        loadAjax();
-                      } else if (destination.data('vbtype') == 'video') {
-                        loadVid(autoplay);
-                      } else {
-                        content.html('<img src="'+dest+'">');
-                        preloadFirst();
-                      }
-                      obj = destination;
-                      checknav();
-                      keyNavigationDisabled = false;
-                      option.cb_after_nav(obj, gallIndex, thenext, theprev);
+                        if (destination.data('vbtype') == 'iframe') {
+                            loadIframe();
+                        } else if (destination.data('vbtype') == 'inline') {
+                            loadInline();
+                        } else if (destination.data('vbtype') == 'ajax') {
+                            loadAjax();
+                        } else if (destination.data('vbtype') == 'video') {
+                            loadVid(autoplay);
+                        } else {
+                            content.html('<img src="'+dest+'">');
+                            preloadFirst();
+                        }
+                        obj = destination;
+                        checknav();
+                        keyNavigationDisabled = false;
+                        option.cb_after_nav(obj, gallIndex, thenext, theprev);
                     });
                 }
 
@@ -714,7 +759,6 @@
                 function updateoverlay(){
 
                     blocktitle.html(title);
-
                     content.find(">:first-child").addClass('vbox-figlio').css({
                         'width': framewidth,
                         'height': frameheight,
@@ -733,6 +777,7 @@
                     },'slow', function(){
                         $preloader.hide();
                     });
+
                     option.cb_content_loaded(obj, gallIndex, thenext, theprev);
                 }
 

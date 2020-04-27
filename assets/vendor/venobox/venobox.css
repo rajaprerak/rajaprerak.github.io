@@ -23,10 +23,7 @@
     top: 0;
     bottom: 0;
     right: 0;
-    z-index: 1040;
-    -webkit-transform:translateZ(1000px);
-    transform: translateZ(1000px);
-    transform-style: preserve-3d;
+    z-index: 999999;
 }
 
 /* ----- navigation ----- */
@@ -37,12 +34,12 @@
     text-align: center;
     line-height: 28px;
     font-size: 12px;
-    padding: 6px 40px;
+    padding: 6px 50px;
     overflow: hidden;
     position: fixed;
     display: none;
     left: 0;
-    z-index: 1050;
+    z-index: 89;
 }
 .vbox-close{
     cursor: pointer;
@@ -58,21 +55,49 @@
     font-size: 24px;
     line-height: 1;
     text-align: center;
-    z-index: 1050;
+    z-index: 99;
 }
-.vbox-num{
+.vbox-left{
     cursor: pointer;
     position: fixed;
     left: 0;
     height: 40px;
-    display: block;
     overflow: hidden;
     line-height: 28px;
     font-size: 12px;
-    padding: 6px 10px;
-    display: none;
-    z-index: 1050;
+    z-index: 99;
+    display: flex;
+    align-items:center;
 }
+.vbox-num{
+    display: inline-block;
+    margin: 6px 0 6px 15px;
+}
+/* ----- Social share ----- */
+.vbox-share{
+    line-height: 28px;
+    font-size: 12px;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    z-index: 98;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.vbox-share svg{
+    max-height: 28px;
+    width: 28px;
+    z-index: 10;
+    margin-left: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    vertical-align: middle;
+}
+
+
 /* ----- navigation ARROWS ----- */
 .vbox-next, .vbox-prev{
     position: fixed;
@@ -83,7 +108,7 @@
     display: block;
     width: 45px;
     height: 45px;
-    z-index: 1050;
+    z-index: 99;
 }
 .vbox-next span, .vbox-prev span{
     position: relative;
