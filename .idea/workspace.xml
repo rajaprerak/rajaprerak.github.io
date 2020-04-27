@@ -2,66 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3351be32-9d22-4688-aee5-b44469bbe5b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/hero-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/hi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio-details-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio-details-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio-details-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/portfolio-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/portfolio-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/portfolio-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/portfolio-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/portfolio-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/portfolio-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/portfolio-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/portfolio-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/portfolio-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/portfolio-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/portfolio-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/portfolio-6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/portfolio-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/portfolio-7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/portfolio-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/portfolio-8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/portfolio-9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/portfolio-9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/profile-img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/aos/aos.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/aos/aos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/boxicons/css/boxicons.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/boxicons/css/boxicons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/boxicons/fonts/boxicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/boxicons/fonts/boxicons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/counterup/counterup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/counterup/counterup.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/icofont/icofont.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/icofont/icofont.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/isotope-layout/isotope.pkgd.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/isotope-layout/isotope.pkgd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/isotope-layout/isotope.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/isotope-layout/isotope.pkgd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/owl.carousel/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/owl.carousel/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/owl.carousel/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/owl.carousel/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/owl.carousel/assets/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/owl.carousel/assets/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/owl.carousel/assets/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/owl.carousel/assets/owl.carousel.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/owl.carousel/assets/owl.theme.default.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/owl.carousel/assets/owl.theme.default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/owl.carousel/assets/owl.theme.default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/owl.carousel/assets/owl.theme.default.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/owl.carousel/assets/owl.theme.green.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/owl.carousel/assets/owl.theme.green.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/owl.carousel/assets/owl.theme.green.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/owl.carousel/assets/owl.theme.green.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/owl.carousel/owl.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/owl.carousel/owl.carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/owl.carousel/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/owl.carousel/owl.carousel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/typed.js/typed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/typed.js/typed.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/typed.js/typed.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/venobox/venobox.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/venobox/venobox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/venobox/venobox.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/venobox/venobox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/venobox/venobox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/venobox/venobox.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/venobox/venobox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/venobox/venobox.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/waypoints/jquery.waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/waypoints/jquery.waypoints.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/forms/Readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-details.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
