@@ -349,7 +349,7 @@ section .container {
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #18d26e;
   font-family: "Poppins", sans-serif;
 }
 
@@ -613,7 +613,7 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #18d26e;
+  color: #007bff;
   margin-bottom: 10px;
 }
 
@@ -646,7 +646,7 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #18d26e;
+  background: #ffc107;
   border: 2px solid #18d26e;
 }
 
