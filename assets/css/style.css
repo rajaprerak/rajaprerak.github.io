@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 a, #header h1 a:hover {
-  color: #fff;
+  color: #007bff;
   line-height: 1;
   display: inline-block;
 }
@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h2 span {
-  color: #fff;
+  color: #ffc107;
   border-bottom: 2px solid #18d26e;
   padding-bottom: 6px;
 }
