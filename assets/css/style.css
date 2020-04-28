@@ -271,12 +271,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Header Top */
 #header.header-top {
-  height: 80px;
+  height: 100px;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 1);
 }
 
 #header.header-top .social-links, #header.header-top h2 {
@@ -316,15 +316,14 @@ section {
   top: 140px;
   bottom: 100%;
   opacity: 0;
-  transition: ease-in-out 0.4s;
   z-index: 2;
 }
 
 section.section-show {
-  top: 100px;
+  top: 70px;
   bottom: auto;
   opacity: 1;
-  padding-bottom: 45px;
+  padding-bottom: 0px;
 }
 
 section .container {
@@ -486,6 +485,7 @@ section .container {
   background: rgba(255, 255, 255, 0.08);
   transition: ease-in-out 0.3s;
 }
+
 
 .interests .icon-box i {
   font-size: 32px;
