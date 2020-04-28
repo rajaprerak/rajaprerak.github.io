@@ -349,7 +349,7 @@ section .container {
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #18d26e;
+  color: #dee2e6;
   font-family: "Poppins", sans-serif;
 }
 
@@ -358,7 +358,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #dee2e6;
   margin: 4px 10px;
 }
 
