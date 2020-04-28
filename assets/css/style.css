@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 a, #header h1 a:hover {
-  color: #dee2e6;
+  color: #0062cc;
   line-height: 1;
   display: inline-block;
 }
@@ -899,7 +899,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #18d26e;
+  color: #dee2e6;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -908,7 +908,7 @@ section .container {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.5);
+  color: #18d26e;
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
