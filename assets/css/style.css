@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 a, #header h1 a:hover {
-  color: #007bff;
+  color: #dee2e6;
   line-height: 1;
   display: inline-block;
 }
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #ffc107;
+  background-color: #18d26e;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -613,7 +613,7 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #007bff;
+  color: #18d26e;
   margin-bottom: 10px;
 }
 
@@ -646,8 +646,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #ffc107;
-  border: 2px solid #ffc107;
+  background: #18d26e;
+  border: 2px solid #18d26e;
 }
 
 /*--------------------------------------------------------------
