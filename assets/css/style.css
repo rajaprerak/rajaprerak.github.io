@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #ffc107;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -646,7 +646,7 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #ffc107;
+  background: #18d26e;
   border: 2px solid #ffc107;
 }
 
