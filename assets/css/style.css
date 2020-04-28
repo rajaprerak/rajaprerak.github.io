@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 a, #header h1 a:hover {
-  color: #007bff;
+  color: #2f69a7;
   line-height: 1;
   display: inline-block;
 }
@@ -646,7 +646,7 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #1c7d32;
+  background: #6d591d;
   border: 2px solid #1c7d32;
 }
 
