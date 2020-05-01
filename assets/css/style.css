@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9999;
   overflow-y: auto;
   background: rgba(0, 0, 0, 0.7);
-  transition: ease-in-out 0.2s;
+  transition: ease-in-out 0s;
   opacity: 0;
   visibility: hidden;
   border-radius: 10px;
@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(9, 9, 9, 0.6);
   overflow: hidden;
   display: none;
-  transition: ease-in-out 0.2s;
+  transition: ease-in-out 0s;
 }
 
 .mobile-nav-active {
