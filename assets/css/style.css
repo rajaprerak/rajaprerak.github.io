@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header * {
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0s;
 }
 
 #header h1 {
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 0);
 }
 
 #header.header-top .social-links, #header.header-top h2 {
@@ -327,7 +327,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0);
   padding: 30px;
 }
 
