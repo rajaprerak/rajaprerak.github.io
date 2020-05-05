@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3351be32-9d22-4688-aee5-b44469bbe5b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +24,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Personal/index.html" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1588002121705">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1588354623852">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588002121705" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588354623852" />
     <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1588321765097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
