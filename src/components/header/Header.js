@@ -8,7 +8,7 @@ function Header() {
 		<Fade top duration={1000} distance="20px">
 			<div>
 				<header className="header">
-					<NavLink to="/home" tag={Link} className="logo">
+					<NavLink to="/" tag={Link} className="logo">
 						<span className="grey-color"> &lt;</span>
 						<span className="logo-name">Prerak Raja</span>
 						<span className="grey-color">/&gt;</span>
@@ -54,7 +54,7 @@ function Header() {
 								Projects
 							</NavLink>
 						</li>
-						<li>
+						{/* <li>
 							<NavLink
 								to="/opensource"
 								tag={Link}
@@ -62,7 +62,7 @@ function Header() {
 							>
 								Open Source
 							</NavLink>
-						</li>
+						</li> */}
 						<li>
 							<NavLink
 								to="/contact"

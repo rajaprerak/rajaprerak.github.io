@@ -13,28 +13,27 @@ const blogSection = {
 
 	title: "Blogs",
 	subtitle:
-		"For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-	link: "https://ashutoshhathidara.wordpress.com",
+		"Awesome coding,development and artificial intelligence related articles at one place.",
+	link: "https://techingenious.herokuapp.com/",
 	avatar_image_path: "blogs_image.svg"
 };
 
 const addressSection = {
 	title: "Address",
 	subtitle:
-		"Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+		"Satellite, Ahmedabad-380015",
 	avatar_image_path: "address_image.svg",
 	location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76"
 };
 
 const phoneSection = {
     title: "Phone Number",
-    subtitle: "+91 8320758513"
+    subtitle: "+91 8128873796"
 }
 
 const ContactData = {
 	title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
-    description: "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development."
+    profile_image_path: "me.jpg"
 };
 
 class Contact extends Component {
@@ -115,13 +114,13 @@ class Contact extends Component {
 										<p className="contact-header-detail-text subTitle">
 											{phoneSection["subtitle"]}
 										</p>
-										<div className="address-btn-div">
+										{/* <div className="address-btn-div">
 											<Button
 												text="Visit on Google Maps"
 												newTab={true}
 												href={addressSection.location_map_link}
 											/>
-										</div>
+										</div> */}
 									</div>
 								</div>
 							</Fade>

@@ -12,7 +12,7 @@ export default function Greeting() {
           <div className="greeting-text-div">
             <div>
               <h1 className="greeting-text">{greeting.title}</h1>
-              <h2 className="greeting-nickname">( {greeting.nickname} )</h2>
+              {/* <h2 className="greeting-nickname">( {greeting.nickname} )</h2> */}
               <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
               <SocialMedia />
               {/* <div className="button-greeting-div">

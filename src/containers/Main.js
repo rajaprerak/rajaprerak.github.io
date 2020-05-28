@@ -16,7 +16,7 @@ export default class Main extends Component {
 					<Switch>
 						<Route path="/" exact component={Splash} />
 						<Route path="/home" component={Home} />
-						<Route path="/experience" exact component={Experience} />
+						<Route path="/experience" component={Experience} />
 						<Route path="/education" component={Education} />
 						<Route path="/opensource" component={Opensource} />
 						<Route path="/contact" component={Contact} />

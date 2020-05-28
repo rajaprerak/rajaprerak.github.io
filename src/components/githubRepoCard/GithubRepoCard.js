@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectLanguages from '../../components/projectLanguages/ProjectLanguages';
+// import ProjectLanguages from '../../components/projectLanguages/ProjectLanguages';
 import "./GithubRepoCard.css";
 
 export default function GithubRepoCard({ repo }) {
@@ -33,8 +33,8 @@ export default function GithubRepoCard({ repo }) {
 				</div>
 				<p className="repo-description">{repo.description}</p>
 				<div className="repo-details">
-					<p className="repo-creation-date subTitle">Created on {repo.createdAt.split('T')[0]}</p>
-          <ProjectLanguages className="repo-languages" logos={repo.languages} />
+					<p className="repo-creation-date subTitle"> {repo.createdAt.split('T')[0]}</p>
+          {/* <ProjectLanguages className="repo-languages" /> */}
 				</div>
 				{/* <div className="repo-stats">
           <div className="repo-left-stat">
