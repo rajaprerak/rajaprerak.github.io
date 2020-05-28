@@ -1,0 +1,13 @@
+Version: 2.1.0
+  - Added: activate/show sections on load with hash links
+
+Version: 2.0.1
+  - Added the missing social profile icons in the contact page
+
+Version: 2.0.0
+  - The template was rebuilt from scratch with the latest Bootstrap version (4.4.1)
+  - Added SMPTP support for the contact form script (Pro)
+  - Added NodeJS NPM Development version (Pro unlimited & Membership members)
+  
+Version: 1.0.0
+- Initial Release

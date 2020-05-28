@@ -1,2 +1,0 @@
-(this["webpackJsonprajaprerak.github.io"]=this["webpackJsonprajaprerak.github.io"]||[]).push([[0],[function(a,i,p){a.exports=p(1)},function(a,i){}],[[0,1]]]);
-//# sourceMappingURL=main.15a0e353.chunk.js.map
