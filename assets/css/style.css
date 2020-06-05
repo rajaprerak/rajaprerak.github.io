@@ -33,7 +33,7 @@ body::before {
 }
 
 a {
-  color: #dee2e6;
+  color: #1c7d32;
 }
 
 a:hover {
@@ -710,7 +710,7 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #1c7d32;
+  background: #09203a;
   border-color: #1c7d32;
 }
 
