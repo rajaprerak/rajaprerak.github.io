@@ -655,7 +655,7 @@ section .container {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  background: rgba(204, 204, 204, 0.1);
+  background: rgba(0, 204, 204, 0.2);
   padding: 40px 40px;
   transition: all ease-in-out 0.3s;
   margin: 10px
