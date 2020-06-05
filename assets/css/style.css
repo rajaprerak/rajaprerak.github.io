@@ -482,7 +482,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(0, 204, 204, 0.2);
   transition: ease-in-out 0.3s;
 }
 
