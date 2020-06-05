@@ -33,7 +33,7 @@ body::before {
 }
 
 a {
-  color: #1c7d32;
+  color: #dee2e6;
 }
 
 a:hover {
@@ -894,7 +894,7 @@ section .container {
   color: #444444;
   padding: 20px;
   width: 100%;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(0, 204, 204, 0.2);
 }
 
 .contact .info-box i.bx {
@@ -908,7 +908,7 @@ section .container {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #1c7d32;
+  color: #dee2e6;
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
