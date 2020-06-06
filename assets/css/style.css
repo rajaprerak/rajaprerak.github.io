@@ -33,11 +33,11 @@ body::before {
 }
 
 a {
-  color: #dcb02b;
+  color: #28a745;
 }
 
 a:hover {
-  color: #35e888;
+  color: #12d640;
   text-decoration: none;
 }
 
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h1 {
   font-size: 48px;
-  margin: 0;
+  margin-top: -200px;
   padding: 0;
   line-height: 1;
   font-weight: 700;
@@ -727,7 +727,7 @@ section .container {
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: #fff;
+  color: #12d640;
 }
 
 /*--------------------------------------------------------------
@@ -936,7 +936,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #1c7d32;
+  color: #12d640;
 }
 
 .contact .php-email-form {
