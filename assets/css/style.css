@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg12.jpg") top right no-repeat;
+  background: #040404 url("../img/bg7.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: #1c7d32;
+  color: #20bb44;
 }
 
 #header h2 span {
@@ -482,7 +482,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: rgba(0, 204, 204, 0.2);
+  background: #09203a;
   transition: ease-in-out 0.3s;
 }
 
@@ -503,7 +503,7 @@ section .container {
 }
 
 .interests .icon-box:hover {
-  background: #09203a;
+  background: #042b56eb;
 }
 
 /*--------------------------------------------------------------
@@ -894,7 +894,7 @@ section .container {
   color: #444444;
   padding: 20px;
   width: 100%;
-  background: rgba(0, 204, 204, 0.2);
+  background: #09203a;
 }
 
 .contact .info-box i.bx {
@@ -908,7 +908,7 @@ section .container {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #dee2e6;
+  color: #28a745;
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
