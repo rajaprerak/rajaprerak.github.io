@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3351be32-9d22-4688-aee5-b44469bbe5b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/dai.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/dai.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ibm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/ibm.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/stanford.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/stanford.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ucsd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/ucsd.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
