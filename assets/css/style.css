@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h1 {
   font-size: 48px;
-  margin-top: -300px;
+  margin-top: 0px;
   padding: 0;
   line-height: 1;
   font-weight: 700;
