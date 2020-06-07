@@ -3,12 +3,40 @@
   <component name="ChangeListManager">
     <list default="true" id="3351be32-9d22-4688-aee5-b44469bbe5b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/gan.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/gan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ml.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/resume.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/todo.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/todo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vdg.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vdg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/blog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/dai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ibm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ml.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resume.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/stanford.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/todo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/todo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ucsd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/vdg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
