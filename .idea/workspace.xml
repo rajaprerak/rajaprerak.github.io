@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3351be32-9d22-4688-aee5-b44469bbe5b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gan.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vdg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/gan.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/gan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ml.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/resume.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/todo.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/todo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vdg.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vdg.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
