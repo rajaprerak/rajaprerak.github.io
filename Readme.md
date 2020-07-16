@@ -1,4 +1,9 @@
-### Portfolio Website
+## Portfolio Website
 > https://rajaprerak.github.io/
 
-Theme by bootstrapmade.
+### How to use?
+* Clone the repository
+* Update your information in index.html file.
+* Upload images in assets/img folder.
+* Update individual project information from projects folder.
+* It's done!!!!
