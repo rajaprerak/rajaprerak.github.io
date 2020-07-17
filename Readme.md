@@ -7,3 +7,14 @@
 * Upload images in assets/img folder.
 * Update individual project information from projects folder.
 * It's done!!!!
+
+#### Sections
+* About
+* Interests
+* Education
+* Online Certification
+* Experience
+* Projects
+* Skills
+* Resume Link
+* Contact
