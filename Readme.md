@@ -11,7 +11,7 @@
 #### Home Page
 <p align="center"> 
   <kbd>
-    <a href="https://rajaprerak.github.io" target="_blank"><img src="website_images/Home.gif">
+    <a href="https://rajaprerak.github.io" target="_blank"><img src="website_images/HomePage.gif">
   </a>
   </kbd>
 </p>
@@ -19,7 +19,7 @@
 #### About Page
 <p align="center"> 
   <kbd>
-    <a href="https://rajaprerak.github.io" target="_blank"><img src="website_images/About.png">
+    <a href="https://rajaprerak.github.io" target="_blank"><img src="website_images/AboutPage.png">
   </a>
   </kbd>
 </p>
@@ -27,7 +27,7 @@
 #### Projects Page
 <p align="center"> 
   <kbd>
-    <a href="https://rajaprerak.github.io" target="_blank"><img src="website_images/Projects.png">
+    <a href="https://rajaprerak.github.io" target="_blank"><img src="website_images/ProjectPage.png">
   </a>
   </kbd>
 </p>
