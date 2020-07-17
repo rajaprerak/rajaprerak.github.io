@@ -1,10 +1,10 @@
 # Personal Portfolio 🔥
 > https://rajaprerak.github.io/
 
-[![HitCount](http://hits.dwyl.com/varadbhogayata/varadbhogayatagithubio.svg)](http://hits.dwyl.com/varadbhogayata/varadbhogayatagithubio)
-[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/varadbhogayata/varadbhogayata.github.io/commits/master)
-[![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://varadbhogayata.github.io/)
-[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/varadbhogayata/)
+[![HitCount](http://hits.dwyl.com/rajaprerak/rajaprerakgitub.io.svg)](http://hits.dwyl.com/rajaprerakgithubio)
+[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/rajaprerak/rajaprerak.github.io/commits/master)
+[![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://rajaprerak.github.io/)
+[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/rajaprerak/)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 ### Website Preview
