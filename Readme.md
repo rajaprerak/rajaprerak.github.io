@@ -10,28 +10,17 @@
 
 ### Website Preview
 #### Home Page
-<p align="center"> 
-  <kbd>
-    <a href="https://rajaprerak.github.io" target="_blank"><img src="website_images/HomePage.gif">
-  </a>
-  </kbd>
-</p>
+<img src="website_images/HomePage.gif" width="900">
+
 
 #### About Page
-<p align="center"> 
-  <kbd>
-    <a href="https://rajaprerak.github.io" target="_blank"><img src="website_images/AboutPage.png">
-  </a>
-  </kbd>
-</p>
+<img src="website_images/AboutPage.png" width="900">
+
 
 #### Projects Page
-<p align="center"> 
-  <kbd>
-    <a href="https://rajaprerak.github.io" target="_blank"><img src="website_images/ProjectPage.png">
-  </a>
-  </kbd>
-</p>
+<img src="website_images/ProjectPage.png" width="900">
+  
+
 
 :star: Star me on GitHub — it helps!
 
