@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a:hover {
-  background: #1c7d32;
+  background: #d39e7c;
 }
 
 @media (max-width: 992px) {
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: #09203a;
+  background: #453a3a;
 }
 
 #header.header-top .social-links, #header.header-top h2 {
@@ -482,7 +482,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: #09203a;
+  background: #453a3a;
   transition: ease-in-out 0.3s;
 }
 
@@ -655,7 +655,7 @@ section .container {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  background: #09203a;
+  background: #453a3a;
   padding: 40px 40px;
   transition: all ease-in-out 0.3s;
   margin: 10px
@@ -665,7 +665,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #1c7d32;
+  background: #d39e7c;
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   display: flex;
@@ -762,7 +762,7 @@ section .container {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #1c7d32;
+  background: #d39e7c;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -894,7 +894,7 @@ section .container {
   color: #444444;
   padding: 20px;
   width: 100%;
-  background: #09203a;
+  background: #453a3a;
 }
 
 .contact .info-box i.bx {
@@ -964,7 +964,7 @@ section .container {
 .contact .php-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background: #1c7d32;
+  background: #d39e7c;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1038,7 +1038,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #1c7d32;
+  background: #d39e7c;
   border: 0;
   padding: 10px 30px;
   color: #fff;
