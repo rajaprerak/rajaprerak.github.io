@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #453a3a;
+  background: #010e1b;
   background-size: cover;
   left: 0;
   right: 0;
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a:hover {
-  background: #d39e7c;
+  background: #1c7d32;
 }
 
 @media (max-width: 992px) {
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: #ece0d0;
+  background: #001F3F;
 }
 
 #header.header-top .social-links, #header.header-top h2 {
@@ -482,7 +482,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: #ece0d0;
+  background: #001F3F;
   transition: ease-in-out 0.3s;
 }
 
@@ -655,7 +655,7 @@ section .container {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  background: #ece0d0;
+  background: #001F3F;
   padding: 40px 40px;
   transition: all ease-in-out 0.3s;
   margin: 10px
@@ -665,7 +665,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #d39e7c;
+  background: #1c7d32;
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   display: flex;
@@ -762,7 +762,7 @@ section .container {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #d39e7c;
+  background: #1c7d32;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -894,7 +894,7 @@ section .container {
   color: #444444;
   padding: 20px;
   width: 100%;
-  background: #ece0d0;
+  background: #001F3F;
 }
 
 .contact .info-box i.bx {
@@ -964,7 +964,7 @@ section .container {
 .contact .php-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background: #d39e7c;
+  background: #1c7d32;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1038,7 +1038,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #d39e7c;
+  background: #1c7d32;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1047,7 +1047,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #d39e7c;
+  background: #FFD717;
 }
 
 @-webkit-keyframes animate-loading {
