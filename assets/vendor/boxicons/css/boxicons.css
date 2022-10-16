@@ -4909,3 +4909,6 @@
 .bxs-zoom-out:before {
   content: "\eeb5";
 }
+.bxl-google-scholar:before {
+  content: "\eeb6";
+}
