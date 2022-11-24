@@ -141,6 +141,15 @@
       });
     });
 
+    $('#skill-flters li').on('click', function() {
+      $("#skill-flters li").removeClass('filter-active');
+      $(this).addClass('filter-active');
+
+      portfolioIsotope.isotope({
+        filter: $(this).data('filter')
+      });
+    });
+
   });
 
   // Initiate venobox (lightbox feature used in portofilo)
