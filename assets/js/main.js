@@ -142,8 +142,8 @@
     });
 
     $('#skill-flters li').on('click', function() {
-      $("#skill-flters li").removeClass('filter-active');
-      $(this).addClass('filter-active');
+      $("#skill-flters li").removeClass('filter-active-secondary');
+      $(this).addClass('filter-active-secondary');
 
       portfolioIsotope.isotope({
         filter: $(this).data('filter')
