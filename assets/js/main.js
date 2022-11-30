@@ -132,22 +132,42 @@
       layoutMode: 'fitRows'
     });
 
+    var filter1 = '*';
+    var filter2 = '*';
+
     $('#portfolio-flters li').on('click', function() {
       $("#portfolio-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
 
+      var total_filter = $(this).data('filter')
+      filter1 = $(this).data('filter')
+      if (filter2 != '*'){
+        total_filter = $(this).data('filter')+ filter2
+      } 
+      console.log(total_filter)
+
       portfolioIsotope.isotope({
-        filter: $(this).data('filter')
-      });
+        filter: total_filter
+        });
+
+
     });
 
     $('#skill-flters li').on('click', function() {
-      $("#skill-flters li").removeClass('filter-active-secondary');
-      $(this).addClass('filter-active-secondary');
+      $("#skill-flters li").removeClass('filter-active');
+      $(this).addClass('filter-active');
+
+      var total_filter = $(this).data('filter')
+      filter2 = $(this).data('filter')
+      if (filter1 != '*'){
+        total_filter = $(this).data('filter')+ filter1
+      } 
+
+      console.log(total_filter)
 
       portfolioIsotope.isotope({
-        filter: $(this).data('filter')
-      });
+        filter: total_filter
+        });
     });
 
   });

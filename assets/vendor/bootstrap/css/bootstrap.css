@@ -475,6 +475,7 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  /* opacity: 0.5; */
 }
 
 .img-thumbnail {
