@@ -61,16 +61,18 @@
 <body>
   
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+
   <!-- End Google Tag Manager (noscript) -->
   <!-- ======= Header ======= -->
   <header id="header" class="header-tops">
 
     <div class="container">
 
-      <!-- <div> <h1><a href="index.html">Thomas Carstens</a></h1> &nbsp; <em>Positive | Diligent | Driven |</em></div>  -->
-      
+       <h2><a href="index.html">Thomas Carstens</a></h2> &nbsp; <em>Positive | Diligent | Driven |</em> 
+
+       <br>
       <h2 style="color:#fff">Looking for <span class="typing" style="color:#12D640"></span>. </h2>
       <nav class="nav-menu d-none d-lg-block">
         <ul>
@@ -79,29 +81,33 @@
           <!-- <li><a href="#education"> <span>Education</span></a></li> -->
           <!-- <li><a href="#experience"> <span>Experience</span></a></li> -->
 <!--          <li><a href="#projects"> <span>Projects</span></a></li>-->
+          <li><a href="https://www.linkedin.com/in/thomas-carstens-31632468/"> <span>Linkedin</span></a></li>
           <li><a href="#portfolio"> <span>Portfolio</span></a></li>          
           <!-- <li><a href="#skills"> <span>Skills</span></a></li> -->
           <!-- <li><a href="#links"> <span>Resume & Links</span></a></li> -->
           <!-- <li><a href="#contacts"> <span>Contact</span></a></li> -->
-          <li><a href="projects/musicplayer.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"> Masters </a></li>
+          <li><a href="projects/musicplayer.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"> Thesis </a></li>
 
         </ul>
+
+
     
-      </nav><!-- .nav-menu -->
+      </nav>
+      
+      
+      <!-- .nav-menu -->
       <!-- https://github.com/mallardduck/blade-boxicons/tree/main/resources/svg/logosa -->
       <!-- https://www.flaticon.com/icon-fonts-most-downloaded/uicons?brands=1&type=uicon -->
-      <div class="social-links">
+
+      <!-- 01/12/22 Removed Social Links. -->
+      <!-- <div class="social-links">
           <a href="https://www.linkedin.com/in/thomas-carstens-31632468/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
           <a href="https://github.com/ThomasCarstens" target="_blank" class="github"><i class="bx bxl-github"></i></a>
           <a href="mailto:thomas.carstens@edu.devinci.fr" target="_blank" class="google"><i class="fi fi-sr-envelope"></i></a>
-          <!-- <a href="mailto:thomas.carstens@edu.devinci.fr" target="_blank" class="google"><i class="bx bxl-google-cloud"></i></a>
-          <a href="mailto:thomas.carstens@edu.devinci.fr" target="_blank" class="google"><i class="bx bxl-firebase"></i></a>
-          <a href="mailto:thomas.carstens@edu.devinci.fr" target="_blank" class="google"><i class="bx bxl-docker"></i></a> -->
-          <!-- <a href="https://drive.google.com/file/d/18jVJJ3QugAPvA-XMLGhuinGD5NvB5jeu/view?usp=sharing" target="_blank"> <i class="bx bxl-briefcase"></i></a> -->
           <a href="https://discord.gg/e3XYMJzb4C" target="_blank"> <i class="bx bxl-discord"></i></a>
           <a href="https://discord.gg/e3XYMJzb4C" target="_blank"> <i class="bx bxl-patreon"></i></a>
 
-      </div>
+      </div> -->
 
       
       
@@ -409,23 +415,23 @@
 
 
 
-      <div >
+      <div  class="column">
+
         <div class="section-title">
           <h2>Filter by Nature of Project</h2>
         </div>
 
-        <div class="row">
+        <div class="column">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
+              <!-- <li data-filter=".filter-top" >Top 5</li>
               <li data-filter=".filter-2mon">2+ months</li>
-              <li data-filter=".filter-6mon">6+ months</li>
-              <li data-filter=".filter-leader">Project Lead</li>
-              <li data-filter=".filter-solo">Personal</li>
-              <li data-filter=".filter-proposed">Self-proposed</li>
-              <li data-filter=".filter-research">Research</li>
-              <li data-filter=".filter-commissioned">Paid Commission</li>
-              <!-- <li data-filter=".filter-ongoing">Active</li> -->
+              <li data-filter=".filter-6mon">6+ months</li> -->
+              <!-- <li data-filter=".filter-solo">Personal</li> -->
+              <li data-filter=".filter-solo">Personal Project</li>
+              <li data-filter=".filter-research">Academic Research</li>
+              <li data-filter=".filter-commissioned">Commissioned</li>
             </ul>
           </div>
         </div>
@@ -434,31 +440,51 @@
           <h2>Filter by Tech Stack</h2>
         </div>
 
-        <div class="row">
+        <div class="column">
           <div class="col-lg-12 d-flex justify-content-center">
             <!-- <div><h3>Skills</h3></div> -->
             <ul id="skill-flters">
               <li data-filter="*" class="filter-active">All</li>
               <!-- <li data-filter=".filter-app">Web-App</li>
               <li data-filter=".filter-project">Project</li> -->
-              <li data-filter=".filter-datapipelines">Data Handling</li>
               <li data-filter=".filter-mobileapp">Mobile App</li>
               <li data-filter=".filter-3dmodelling">3D Modelling</li>
-              <li data-filter=".filter-robotics">Robotics</li>
+              <li data-filter=".filter-robotics">Robotic Software</li>
+              <li data-filter=".filter-database">Databases</li>
+              <li data-filter=".filter-viz">Visualization</li>
+              <li data-filter=".filter-datapipelines">Sensor Stream</li>
             </ul>
           </div>
         </div>
       </div>
 
+      <div class="section-title">
+        <h2>Filter by Theme</h2>
+      </div>
+
+      <div class="column">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-top" >Top 5</li>
+            <li data-filter=".filter-leader">Team Lead</li>
+            <!-- <li data-filter=".filter-2mon">2+ months</li>
+            <li data-filter=".filter-6mon">6+ months</li> -->
+            <li data-filter=".filter-t4g">Tech4Good</li>
+            <li data-filter=".filter-IDL">Intelligent Drones Lab</li>
+            <li data-filter=".filter-proposed">Self-initiated</li>
+            <!-- <li data-filter=".filter-commissioned">Paid Commission</li> -->
+          </ul>
+        </div>
+      </div>
 
 
+      <div class="column portfolio-container">
 
-      <div class="row portfolio-container">
-
-        <div class="col-lg-4 col-md-6 filter-robotics portfolio-item filter-6mon filter-project filter-leader ">
+        <div class="col-lg-4 col-md-6 filter-top filter-IDL filter-robotics portfolio-item filter-6mon filter-project filter-leader ">
           <center><h4>Drone Swarm Engineering</h4></center>
           <div class="portfolio-wrap">
-            <img src="assets/img/project/twitteranalysis.jpg" class="img-fluid" alt="">
+            <img src="assets/img/project/blog.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Drone Swarm Engineering</h4>
               <div class="portfolio-links">
@@ -468,14 +494,15 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-mobileapp filter-datapipelines filter-6mon filter-research filter-proposed filter-leader">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-top filter-t4g filter-database filter-mobileapp filter-6mon filter-research filter-proposed filter-leader">
           <center><h4>&nbsp Deploying a Mech Eng Forum</h4></center>
           <div class="portfolio-wrap">
             <img src="assets/img/project/resume.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <div class="card-container">
                 <!-- <img class="card-centered" src="/assets/img/test.gif"  height="100%"  class="gif-background"> -->
-                <img src="/assets/img/test.gif"   class="gif-background">
+                <img src="https://github.com/ThomasCarstens/Kipp_2_vercel/dev/assets/circuit_correct_output.gif"   class="gif-background">
+                <!-- /assets/img/test.gif -->
                 <!-- <h4 class="card-centered">Deploying a Mech Eng Forum</h4> -->
               </div>
               
@@ -486,20 +513,20 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 filter-mobileapp filter-datapipelines portfolio-item filter-app filter-2mon filter-solo">
+        <div class="col-lg-4 col-md-6 filter-mobileapp filter-t4g filter-database portfolio-item filter-app filter-2mon filter-solo">
           <center><h4>Up-load: Better than Brilliant!</h4></center>
           <div class="portfolio-wrap">
             <img src="assets/img/project/iras.jpeg" class="img-fluid" alt="">
             <div class="portfolio-info">
               
               <div class="portfolio-links">
-                <a href="projects/iras.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+                <a href="projects/upload.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-solo">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-viz filter-app filter-solo">
           <center><h4>Off-load: to prioritise tasks</h4></center>
           <div class="portfolio-wrap">
             <img src="assets/img/project/musicplayer.jpg" class="img-fluid" alt="">
@@ -512,7 +539,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-robotics filter-datapipelines filter-leader filter-research filter-proposed">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-IDL filter-top filter-robotics filter-datapipelines filter-leader filter-research filter-proposed">
           <center><h4>Drone Training in Crossreality </h4></center>
           <div class="portfolio-wrap">
             <img src="assets/img/project/recommender.jpg" class="img-fluid" alt="">
@@ -527,7 +554,7 @@
 
         <!-- HERE -->
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-datapipelines filter-2mon filter-commissioned filter-solo">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-database filter-top filter-2mon filter-commissioned ">
           <center><h4>Receipt Tracker Software</h4></center>
           <div class="portfolio-wrap">
             <img src="assets/img/project/vdg.jpg" class="img-fluid" alt="">
@@ -542,10 +569,10 @@
 
 
 
-         <div class="col-lg-4 col-md-6 filter-robotics portfolio-item filter-6mon filter-app filter-research">
+         <div class="col-lg-4 col-md-6 portfolio-item filter-viz filter-top filter-robotics filter-6mon filter-app filter-research">
           <center><h4>Field Scanning by UAV</h4></center>
           <div class="portfolio-wrap">
-            <img src="assets/img/project/ml.jpg" class="img-fluid" alt="">
+            <img src="assets/img/project/todo.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <div class="portfolio-links">
                 <a href="projects/ml.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
@@ -556,7 +583,7 @@
 
         
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-2mon filter-project filter-leader filter-commissioned">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-t4g filter-2mon filter-leader filter-commissioned">
           <center><h4>Creating STEM Content</h4></center>
           <div class="portfolio-wrap">
             <img src="assets/img/project/gan.jpg" class="img-fluid" alt="">
@@ -567,7 +594,18 @@
             </div>
           </div>
         </div> 
-     
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-IDL filter-robotics filter-2mon filter-leader filter-datapipelines filter-research">
+          <center><h4>Drone Hands</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/twitteranalysis.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="projects/gan.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div> 
 
       </div>
     </div>
