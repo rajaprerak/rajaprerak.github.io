@@ -1,7 +1,7 @@
 /*!
  * jquery.counterup.js 2.1.0
  *
- * Copyright 2013, Benjamin Intal http://gambit.ph @bfintal
+ * Copyright 2013, Benjamin Intal https://gambit.ph @bfintal
  * Released under the GPL v2 License
  *
  * Amended by Jeremy Paris, Ciro Mattia Gonano and others
