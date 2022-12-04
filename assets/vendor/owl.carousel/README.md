@@ -11,7 +11,7 @@ Touch enabled [jQuery](https://jquery.com/) plugin that lets you create a beauti
 This package can be installed with:
 
 - [npm](https://www.npmjs.com/package/owl.carousel): `npm install --save owl.carousel` or `yarn add owl.carousel jquery`
-- [bower](http://bower.io/search/?q=owl.carousel): `bower install --save owl.carousel`
+- [bower](https://bower.io/search/?q=owl.carousel): `bower install --save owl.carousel`
 
 Or download the [latest release](https://github.com/OwlCarousel2/OwlCarousel2/releases).
 
@@ -95,16 +95,16 @@ $(document).ready(function(){
 
 ## Documentation
 
-The documentation, included in this repo in the root directory, is built with [Assemble](http://assemble.io/) and publicly available at https://owlcarousel2.github.io/OwlCarousel2/. The documentation may also be run locally.
+The documentation, included in this repo in the root directory, is built with [Assemble](https://assemble.io/) and publicly available at https://owlcarousel2.github.io/OwlCarousel2/. The documentation may also be run locally.
 
 ## Building
 
-This package comes with [Grunt](http://gruntjs.com/) and [Bower](http://bower.io/). The following tasks are available:
+This package comes with [Grunt](https://gruntjs.com/) and [Bower](https://bower.io/). The following tasks are available:
 
   * `default` compiles the CSS and JS into `/dist` and builds the doc.
   * `dist` compiles the CSS and JS into `/dist` only.
   * `watch` watches source files and builds them automatically whenever you save.
-  * `test` runs [JSHint](http://www.jshint.com/) and [QUnit](http://qunitjs.com/) tests headlessly in [PhantomJS](http://phantomjs.org/).
+  * `test` runs [JSHint](https://www.jshint.com/) and [QUnit](https://qunitjs.com/) tests headlessly in [PhantomJS](https://phantomjs.org/).
 
 To define which plugins are build into the distribution just edit `/_config.json` to fit your needs.
 
