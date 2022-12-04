@@ -171,6 +171,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Desktop Navigation */
 .nav-menu {
   margin-top: 35px;
+  
+  
 }
 
 .nav-menu ul {
@@ -178,10 +180,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+
+  margin-left:100px;
+
 }
 
 .nav-menu li + li {
   margin-left: 30px;
+  
 }
 
 .nav-menu a {
@@ -191,6 +197,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 19px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  
+  
 }
 
 .nav-menu a:before {
@@ -204,16 +212,21 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
+  
 }
 
 .nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
   visibility: visible;
   width: 25px;
+  
+  
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #12d640;
   text-decoration: none;
+  
+
 }
 
 /* Mobile Navigation */
