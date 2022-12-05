@@ -806,7 +806,7 @@ section .container {
 }
 
 .portfolio #skill-flters li:hover, .portfolio #skill-flters li.filter-active {
-  background: #1c7d32;
+  background: #186b2c;
 }
 
 .portfolio #skill-flters li:last-child {
@@ -846,7 +846,7 @@ section .container {
 }
 
 .portfolio #theme-flters li:hover, .portfolio #theme-flters li.filter-active {
-  background: #1c7d32;
+  background: #115020;
 }
 
 .portfolio #theme-flters li:last-child {
@@ -882,7 +882,7 @@ section .container {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #1c7d32;
+  background: #28b449;
 }
 
 .portfolio #portfolio-flters li:last-child {
