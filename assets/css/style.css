@@ -779,7 +779,7 @@ section .container {
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: #12d640;
+  color: #06200c;
 }
 
 /*--------------------------------------------------------------
@@ -855,7 +855,7 @@ section .container {
 }
 
 .portfolio #theme-flters li:hover, .portfolio #theme-flters li.filter-active {
-  background: #115020;
+  background: #186b2c;
 }
 
 .portfolio #theme-flters li:last-child {
