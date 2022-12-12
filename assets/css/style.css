@@ -8,6 +8,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+.background-gif {
+    background-image: url("../img/viz.gif");
+    background-repeat: no-repeat;
+    /* background-attachment:fixed; */
+    background-size: 80% 100%;
+    color: #FFFFFF;
+
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
