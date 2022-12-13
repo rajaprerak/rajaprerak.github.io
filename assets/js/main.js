@@ -99,6 +99,11 @@
     time: 1000
   });
 
+
+
+
+
+  
   // Skills section
   $('.skills-content').waypoint(function() {
     $('.progress .progress-bar').each(function() {

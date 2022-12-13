@@ -190,12 +190,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   list-style: none;
 
-  margin-left:100px;
+  margin-left:13px;
 
 }
 
 .nav-menu li + li {
-  margin-left: 30px;
+  margin-left: 10px;
   
 }
 
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   position: relative;
   color: #fff;
-  font-size: 19px;
+  font-size: 14px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   
