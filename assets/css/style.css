@@ -8,11 +8,43 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+.background-gif {
+    background-image: url("../img/viz.gif");
+    background-repeat: no-repeat;
+    /* background-attachment:fixed; */
+    background-size: 80% 100%;
+    color: #FFFFFF;
+
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
   position: relative;
   background: transparent;
+}
+
+.gif-below {
+  display: flex;
+  align-items: center;
+}
+
+.center-pics {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.gif-background {
+  /* max-width: 100%; */
+  margin-top: 50px;
+  
+  background-color: plum;
+  margin-left:-150px;
+  /* height: 200px; */
+  height: auto;
+  opacity: 0.6;
 }
 
 body::before {
@@ -43,6 +75,14 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+}
+
+.gallery-row{
+  width:"300px";
+  display:inline-block;
+  align-items: center;
+  position: relative;
+
 }
 
 /*--------------------------------------------------------------
@@ -141,6 +181,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Desktop Navigation */
 .nav-menu {
   margin-top: 35px;
+  
+  
 }
 
 .nav-menu ul {
@@ -148,19 +190,25 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+
+  margin-left:13px;
+
 }
 
 .nav-menu li + li {
-  margin-left: 30px;
+  margin-left: 10px;
+  
 }
 
 .nav-menu a {
   display: block;
   position: relative;
   color: #fff;
-  font-size: 19px;
+  font-size: 14px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  
+  
 }
 
 .nav-menu a:before {
@@ -174,16 +222,21 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
+  
 }
 
 .nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
   visibility: visible;
   width: 25px;
+  
+  
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #12d640;
   text-decoration: none;
+  
+
 }
 
 /* Mobile Navigation */
@@ -727,15 +780,92 @@ section .container {
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: #12d640;
+  color: #06200c;
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Skill filter
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
+
+
+.portfolio #skill-flters {
+  padding: 0;
+  margin: 0 auto 15px auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+  padding: 2px 15px;
+}
+
+.portfolio #skill-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 16px 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0 3px 10px 3px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 4px;
+}
+
+.portfolio #skill-flters li:hover, .portfolio #skill-flters li.filter-active {
+  background: #186b2c;
+}
+
+.portfolio #skill-flters li:last-child {
+  margin-right: 0;
+}
+
+/*--------------------------------------------------------------
+# Theme filter
+--------------------------------------------------------------*/
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+
+.portfolio #theme-flters {
+  padding: 0;
+  margin: 0 auto 15px auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+  padding: 2px 15px;
+}
+
+.portfolio #theme-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 16px 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0 3px 10px 3px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 4px;
+}
+
+.portfolio #theme-flters li:hover, .portfolio #theme-flters li.filter-active {
+  background: #186b2c;
+}
+
+.portfolio #theme-flters li:last-child {
+  margin-right: 0;
+}
+
+/*------------------------------------------------------------
+# Portfolio
+-----------------------------------------------------------*/
 
 .portfolio #portfolio-flters {
   padding: 0;
@@ -762,7 +892,7 @@ section .container {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #1c7d32;
+  background: #28b449;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -885,6 +1015,24 @@ section .container {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
+}
+
+.card-container {
+  position: absolute;
+  text-align: center;
+  color: white;
+  background-color: #380858;
+  width: 500px;
+  opacity: 0.7;
+  /* display:  */
+
+}
+
+.card-centered {
+  position: center;
+  top: 40%;
+  left: 15%;
+  transform: translate(-15%, -50%);
 }
 
 /*--------------------------------------------------------------

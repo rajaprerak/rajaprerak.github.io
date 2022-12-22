@@ -4,6 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
 !(function($) {
   "use strict";
 
@@ -98,6 +99,11 @@
     time: 1000
   });
 
+
+
+
+
+  
   // Skills section
   $('.skills-content').waypoint(function() {
     $('.progress .progress-bar').each(function() {
@@ -132,13 +138,62 @@
       layoutMode: 'fitRows'
     });
 
+    var filter1 = '*';
+    var filter2 = '*';
+    var filter3 = '*';
+
+    //filter 1
     $('#portfolio-flters li').on('click', function() {
       $("#portfolio-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
 
+      var total_filter = $(this).data('filter')
+      filter1 = $(this).data('filter')
+      if (filter2 != '*'){
+        total_filter = $(this).data('filter')+ filter2+ filter3
+      } 
+      console.log(total_filter)
+
       portfolioIsotope.isotope({
-        filter: $(this).data('filter')
-      });
+        filter: total_filter
+        });
+
+
+    });
+    //filter 2
+    $('#skill-flters li').on('click', function() {
+      $("#skill-flters li").removeClass('filter-active');
+      $(this).addClass('filter-active');
+
+      var total_filter = $(this).data('filter')
+      filter2 = $(this).data('filter')
+      if (filter1 != '*'){
+        total_filter = $(this).data('filter')+ filter1+ filter3
+      } 
+
+      console.log(total_filter)
+
+      portfolioIsotope.isotope({
+        filter: total_filter
+        });
+    });
+
+    //filter 3
+    $('#theme-flters li').on('click', function() {
+      $("#theme-flters li").removeClass('filter-active');
+      $(this).addClass('filter-active');
+
+      var total_filter = $(this).data('filter')
+      filter3 = $(this).data('filter')
+      if (filter1 != '*'){
+        total_filter = $(this).data('filter')+ filter1+ filter3
+      } 
+
+      console.log(total_filter)
+
+      portfolioIsotope.isotope({
+        filter: total_filter
+        });
     });
 
   });
