@@ -69,13 +69,31 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
+  color: white;
+  position: relative;
+  transition: all 0.3s ease;
+}
+#header h1 a{
+  color: white;
 }
 
-#header h1 a, #header h1 a:hover {
-  color: #dee2e6;
-  line-height: 1;
-  display: inline-block;
+#header h1:hover {
+  color: #12d640;
+  text-shadow: 0 0 20px #12d640, 0 0 40px #12d640, 0 0 60px #12d640, 0 0 80px #12d640, 0 0 100px #12d640;
 }
+
+#header h1:hover:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: 795px;
+  bottom: -5px;
+  background: #12d640;
+  z-index: -1;
+  filter: blur(20px);
+}
+
 
 #header h2 {
   font-size: 24px;
@@ -97,10 +115,11 @@ h1, h2, h3, h4, h5, h6 {
 #header .social-links {
   margin-top: 40px;
   display: flex;
+  padding: 0 20px;
 }
 
 #header .social-links a {
-  font-size: 16px;
+  font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,11 +130,28 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   width: 40px;
   height: 40px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
 
 #header .social-links a:hover {
   background: #1c7d32;
+  box-shadow: 0 0 10px #1c7d32, 0 0 20px #1c7d32, 0 0 30px #1c7d32, 0 0 40px #1c7d32;
 }
+
+#header .social-links a:hover:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: #1c7d32;
+  z-index: -1;
+  filter: blur(20px);
+}
+
 
 @media (max-width: 992px) {
   #header h1 {
