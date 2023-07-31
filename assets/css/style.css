@@ -84,15 +84,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h2 span {
-  color: #537FE7;
-  border-bottom: 2px solid #E96479;
+  color: #97FEED;
+  border-bottom: 2px solid #0B666A;
   padding-bottom: 6px;
 }
  
 #header img {
   padding: 0;
   margin: 0;
-} 
+}  
 
 #header .social-links {
   margin-top: 40px;
