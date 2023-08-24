@@ -1,5 +1,5 @@
 # Personal Portfolio 🔥
-> https://rajaprerak.github.io/
+> https://geoffreymokua.github.io/
 
 :star: Star me on GitHub — it helps!
 
@@ -9,8 +9,8 @@
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 ### Website Preview
-#### Home Page
-<img src="website_images/HomePage.gif" width="900">
+<!-- #### Home Page
+<img src="website_images/HomePage.gif" width="900"> -->
 
 
 #### About Page
