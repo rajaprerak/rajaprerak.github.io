@@ -1,0 +1,10 @@
+/* Styles de la section PPP Career Project */
+.ppp-statement{max-width:800px;margin:0 auto 30px;padding:20px 25px;border-left:4px solid #12D640;background:rgba(18,214,64,.06);font-style:italic;text-align:center}
+.ppp-card{background:#fff;border-radius:8px;padding:25px;height:100%;box-shadow:0 2px 15px rgba(0,0,0,.08);transition:transform .3s,box-shadow .3s}
+.ppp-card:hover{transform:translateY(-5px);box-shadow:0 8px 25px rgba(0,0,0,.15)}
+.ppp-card i{font-size:36px;color:#12D640}
+.ppp-card h4{font-weight:700;font-size:18px;margin:12px 0 10px}
+.ppp-card ul{padding-left:18px;margin:0}
+.ppp-card .todo{color:#999;font-size:14px}
+.skill-badge{display:inline-block;margin:4px;padding:6px 14px;border-radius:20px;background:#12D640;color:#fff;font-size:14px}
+.skill-badge.soft{background:#0563bb}
